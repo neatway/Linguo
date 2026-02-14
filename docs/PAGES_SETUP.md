@@ -20,7 +20,7 @@ This project includes App Store-ready pages in the `docs/` folder:
 - Privacy policy: `https://<your-username>.github.io/<repo>/privacy/`
 - Support: `https://<your-username>.github.io/<repo>/support/`
 
-If you use a custom domain (for example `linguo.app`), update DNS and then use:
+If you use a custom domain (for example `linguo.fun`), update DNS and then use:
 
-- `https://linguo.app/privacy/`
-- `https://linguo.app/support/`
+- `https://linguo.fun/privacy/`
+- `https://linguo.fun/support/`
