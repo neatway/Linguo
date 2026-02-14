@@ -1,0 +1,117 @@
+:root {
+  --bg: #f5fdf9;
+  --surface: #ffffff;
+  --text: #1a2e25;
+  --muted: #5a6b62;
+  --line: #dbe9e2;
+  --brand: #059669;
+  --brand-dark: #047857;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #e2f7ee, var(--bg) 60%);
+}
+
+a {
+  color: var(--brand-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding: 24px 16px 56px;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.header {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.brand {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.card + .card {
+  margin-top: 12px;
+}
+
+h2,
+h3 {
+  margin: 0 0 10px;
+}
+
+p,
+li {
+  line-height: 1.6;
+}
+
+.small {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.footer {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  border-radius: 999px;
+  background: #e7f8f1;
+  color: var(--brand-dark);
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
